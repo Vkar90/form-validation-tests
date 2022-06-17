@@ -4,12 +4,13 @@
   "description": "Testing Form validations using libraries",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel src/index.html",
+    "start": "npx parcel src/html/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0"
   }
 }
