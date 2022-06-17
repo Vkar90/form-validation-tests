@@ -1,0 +1,15 @@
+{
+  "name": "form-validation-tests",
+  "version": "1.0.0",
+  "description": "Testing Form validations using libraries",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
