@@ -10,32 +10,41 @@
   </head>
   <body>
     <main>
-      <div class="login-box">
-        <h2>Register</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Full name</label>
+      <div class="container">
+        <h1>Urpinion</h1>
+        <h2>Create a new account</h2>
+        <form class="form" action="#">
+          <fieldset class="form-fieldset ui-input __first">
+            <input type="text" id="username" tabindex="0">
+            <label for="username">
+              <span data-text="Username">Username</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="form-fieldset ui-input __second">
+            <input type="email" id="email" tabindex="0">
+            <label for="email">
+              <span data-text="E-mail Address">E-mail Address</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="form-fieldset ui-input __third">
+            <input type="password" id="new-password">
+            <label for="new-password">
+              <span data-text="New Password">New Password</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="form-fieldset ui-input __fourth">
+            <input type="password" id="repeat-new-password">
+            <label for="repeat-new-password">
+              <span data-text="Repeat New Password">Repeat New Password</span>
+            </label>
+          </fieldset>
+
+          <div class="form-footer">
+            <button class="btn">Create Account</button>
           </div>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Address</label>
-          </div>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Username</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Password</label>
-          </div>
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Submit
-          </a>
         </form>
       </div>
     </main>
