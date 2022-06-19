@@ -10,6 +10,10 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
 .homepage-buttons {
   flex-direction: column;
   animation: rotateAngle 6s linear infinite;
